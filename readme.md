@@ -42,12 +42,12 @@ Dependencies:
 
 # Examples
 
-| Name      | Introduction                                                                                                                                                                                                                                                     |
-|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| example_1 | Define entries including page js                                                                                                                                                                                                                                 |
-| example_2 | Define entries including page js, common js                                                                                                                                                                                                                      |
-| example_3 | Define entries including page js, common js, and use ``extract-text-webpack-plugin` to extract css to individual css files                                                                                                                                       |
-| example_3 | Define entries including page js, common js, page css, common css in config, and use ``extract-text-webpack-plugin` to extract css to individual css files. If you set css file as entry in `webpack.config.js`, you can't `require(css_file)` in js entry file. |
+| Name      | Config                                             | Introduction                                                                                                                                                                                                                                                     |
+|:----------|:---------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| example_1 | [webpack.config.js](./example_1/webpack.config.js) | Define entries including page js                                                                                                                                                                                                                                 |
+| example_2 | [webpack.config.js](./example_2/webpack.config.js) | Define entries including page js, common js                                                                                                                                                                                                                      |
+| example_3 | [webpack.config.js](./example_3/webpack.config.js) | Define entries including page js, common js, and use ``extract-text-webpack-plugin` to extract css to individual css files                                                                                                                                       |
+| example_3 | [webpack.config.js](./example_4/webpack.config.js) | Define entries including page js, common js, page css, common css in config, and use ``extract-text-webpack-plugin` to extract css to individual css files. If you set css file as entry in `webpack.config.js`, you can't `require(css_file)` in js entry file. |
 
 ## Example 1
 
