@@ -49,9 +49,9 @@ Dependencies:
 | example_3 | [webpack.config.js](./example_3/webpack.config.js) | Define entries including page js, common js, and use ``extract-text-webpack-plugin` to extract css to individual css files                                                                                                                                       |
 | example_3 | [webpack.config.js](./example_4/webpack.config.js) | Define entries including page js, common js, page css, common css in config, and use ``extract-text-webpack-plugin` to extract css to individual css files. If you set css file as entry in `webpack.config.js`, you can't `require(css_file)` in js entry file. |
 
-## Example 1
+## Example 1 Test Report
 
-Disable `webpack.optimize.UglifyJsPlugin`
+When disable `webpack.optimize.UglifyJsPlugin`
 
 ```bash
 $  webpack-example  ./example_1/build.sh
@@ -109,7 +109,7 @@ js/entry2.js  281 kB       1  [emitted]  entry2
 ~/Work/tmp/webpack-example
 ```
 
-Enable `webpack.optimize.UglifyJsPlugin`
+When enable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 $  webpack-example  ./example_1/build.sh
@@ -167,9 +167,9 @@ js/entry2.js  91.1 kB       1  [emitted]  entry2
 ~/Work/tmp/webpack-example
 ```
 
-## Example 2
+## Example 2 Test Report
 
-Disable `webpack.optimize.UglifyJsPlugin`
+When disable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 $  webpack-example  ./example_2/build.sh
@@ -228,7 +228,7 @@ js/commons.js   282 kB       2  [emitted]  libs
 ~/Work/tmp/webpack-example
 ```
 
-Enable `webpack.optimize.UglifyJsPlugin`
+When enable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 $  webpack-example  ./example_2/build.sh
@@ -289,9 +289,9 @@ js/commons.js    91.3 kB       2  [emitted]  libs
 ~/Work/tmp/webpack-example
 ```
 
-## Example 3
+## Example 3 Test Report
 
-Disable `webpack.optimize.UglifyJsPlugin`
+When disable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 ➜  webpack-example  ./example_3/build.sh
@@ -385,7 +385,7 @@ Child extract-text-webpack-plugin:
 ~/Work/tmp/webpack-example
 ```
 
-Enable `webpack.optimize.UglifyJsPlugin`
+When enable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 ➜  webpack-example  ./example_3/build.sh
@@ -479,9 +479,9 @@ Child extract-text-webpack-plugin:
 ~/Work/tmp/webpack-example
 ```
 
-## Example 4
+## Example 4 Test Report
 
-Disable `webpack.optimize.UglifyJsPlugin`
+When disable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 ➜  webpack-example  ./example_4/build.sh
@@ -587,7 +587,7 @@ Child extract-text-webpack-plugin:
 ~/Work/tmp/webpack-example
 ```
 
-Enable `webpack.optimize.UglifyJsPlugin`
+When enable `webpack.optimize.UglifyJsPlugin`
 
 ```Bash
 ➜  webpack-example  ./example_4/build.sh
