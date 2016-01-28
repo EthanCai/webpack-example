@@ -17,7 +17,7 @@ Assume the root path is `/example_[x]/`
 - `/js/entry2.js`: js module for page 2
 - `/js/jquery.js`: a common js module
 - `/js/module.js`: a js module
-    - `/js/module2.js`: a js module
+- `/js/module2.js`: a js module
 - `/css/style.css`: a common css module
 - `/css/style2.css`: a common css module
 - `/css/index1.css`: css module for page 1
@@ -31,8 +31,6 @@ Dependencies:
 - `/js/entry1.js` --> `/css/index1.css`
 - `/js/entry1.js` --> `/js/jquery.js`
 - `/js/entry1.js` --> `/js/module.js`
-
-
 - `/js/entry2.js` --> `/css/style.css`
 - `/js/entry2.js` --> `/css/style2.css`
 - `/js/entry2.js` --> `/css/index2.css`
